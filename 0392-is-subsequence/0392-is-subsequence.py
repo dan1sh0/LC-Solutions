@@ -8,7 +8,7 @@ class Solution:
         # if we are able to reach the end of both strings we return True 
         # if we could not, return False 
         
-        
+        # Time Complexity is O(n) where n is the length of t  
         char1, char2 = 0, 0 
         
         while char1 < len(s) and char2 < len(t):
